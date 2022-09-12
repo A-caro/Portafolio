@@ -1,0 +1,143 @@
+body {
+     background-color: rgba(243, 243, 243, 0.822); 
+    font-family: "Barriecito", cursive;
+    margin: 0%;
+  }  
+  
+
+/* Header de presentación*/
+div header nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    background-color: rgba(164, 187, 169, 0.589);
+    cursor: pointer;
+   
+}
+
+p{
+    margin-right: 30px;
+    
+
+}
+
+ 
+#contacto{
+    background-color: rgb(196, 206, 169);
+    border-radius: 30%;
+    padding: 3px;
+    color: rgb(7, 7, 7);
+}  
+
+
+/* Caja de presentación */
+.cont-padre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cont-imagen-presentacion{
+    width: 70vw;
+    height: 100vh; 
+    
+    
+}
+
+img{
+    width: 100%;
+    padding: 50px;
+    border-radius: 15%;
+    
+}
+
+
+/*Cajas de conocimientos*/
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+}
+.conteiner-conocimientos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.conteiner-java{
+    width: 200px;
+    background-color: rgb(217, 224, 204) ;
+    margin-left: 100px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.conteiner-java img{
+    width: 100px;
+    height: 100px;
+}
+
+.conteiner-java:hover{
+    background-color: rgba(105, 124, 34, 0.37);
+    color: #fff !important;
+}
+
+.conteiner-git{
+    width: 200px;
+    background-color: rgb(217, 224, 204);
+    border-radius: 30%;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.conteiner-git img{
+    width: 100px;
+    height: 100px;
+}
+
+.conteiner-git:hover{
+    background-color: rgba(105, 124, 34, 0.37);
+    color: #fff !important;
+}
+
+.conteiner-sql{
+    width: 200px;
+    background-color: rgb(217, 224, 204) ;
+    margin-left: 100px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.conteiner-sql img {
+    width: 100px;
+    height: 100px;
+}
+
+.conteiner-sql:hover{
+    background-color: rgba(105, 124, 34, 0.37);
+    color: #fff !important;
+}
+
+.conteiner-spring{
+    width: 200px;
+    background-color: rgb(217, 224, 204) ;
+    margin-left: 100px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.conteiner-spring img{
+    width: 100px;
+    height: 100px;
+}
+
+.conteiner-spring:hover{
+    background-color: rgba(105, 124, 34, 0.37);
+    color: #fff !important;
+
+}
