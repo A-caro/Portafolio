@@ -17,8 +17,6 @@ div header nav {
 
 p{
     margin-right: 30px;
-    
-
 }
 
  
@@ -74,7 +72,6 @@ h1{
     background-color: rgb(217, 224, 204) ;
     margin-left: 100px;
     border-radius: 30%;
-    cursor: pointer;
 }
 
 .conteiner-java img{
@@ -92,7 +89,6 @@ h1{
     background-color: rgb(217, 224, 204);
     border-radius: 30%;
     margin-left: 100px;
-    cursor: pointer;
 }
 
 .conteiner-git img{
@@ -110,7 +106,6 @@ h1{
     background-color: rgb(217, 224, 204) ;
     margin-left: 100px;
     border-radius: 30%;
-    cursor: pointer;
 }
 
 .conteiner-sql img {
@@ -128,7 +123,6 @@ h1{
     background-color: rgb(217, 224, 204) ;
     margin-left: 100px;
     border-radius: 30%;
-    cursor: pointer;
 }
 
 .conteiner-spring img{
